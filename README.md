@@ -87,4 +87,4 @@ Berdasarkan file yang ada di repositori:
 
 ---
 
-**Dibuat oleh:** Untuk Memenuhi Tugas UAS Algoritma dan Pemrograman
+Dibuat Untuk Memenuhi Tugas UAS Algoritma dan Pemrograman
