@@ -1,6 +1,26 @@
 # Implementasi Binary Search Tree (BST) & Traversal 
+<div align="center">
 
+**Ujian Akhir Semester – Algoritma Pemrograman**  
+🏛️ **Universitas Muhammadiyah Malang**  
+📅 **Tahun Akademik 2026**
+
+</div>
 Repositori ini berisi proyek akhir semester untuk mata kuliah **Algoritma dan Pemrograman**. Program ini mengimplementasikan struktur data pohon pencarian biner (Binary Search Tree) menggunakan **Java** dengan antarmuka grafis (GUI) untuk memvisualisasikan algoritma penelusuran (traversal).
+
+---
+## 👥 Anggota Kelompok
+
+<div align="center">
+
+| Nama                               | NIM             |
+|------------------------------------|-----------------|
+| Gilbert Tetuko Julian Hunsam       | 202410370110006 |
+| Restu Gilang Saputra               | 202410370110014 |
+| Lexyandra Syahputra Dwi Habibillah | 202410370110030 |
+| Nadila Aliza                       | 202410370110111 |
+
+</div>
 
 ---
 
@@ -26,11 +46,16 @@ Proyek ini dirancang untuk menunjukkan bagaimana data numerik dapat dikelola sec
 
 ---
 
+## Fitur Unggulan
+-   **Visualisasi GUI Modern**: Menggunakan Java Swing dengan kustomisasi background untuk tampilan yang lebih menarik dan tidak kaku.
+-   **Manajemen Data Real-time**: Input angka dilakukan secara dinamis dan hasilnya langsung ditampilkan pada area teks yang tersedia.
+-   **User-Friendly Control**: Tombol kontrol yang intuitif untuk memilih metode traversal hanya dengan satu klik.
+-   **Robust Logic**: Penanganan error untuk input non-angka untuk menjaga stabilitas aplikasi.
+---
 ## Konsep Algoritma
 Binary Search Tree adalah pohon biner di mana setiap node mematuhi aturan berikut:
 1.  **Sub-pohon Kiri**: Berisi nilai yang selalu **lebih kecil** dari node induk.
 2.  **Sub-pohon Ranan**: Berisi nilai yang selalu **lebih besar** dari node induk.
-
 
 ### Kompleksitas Waktu:
 * **Rata-rata (Average Case)**: $O(\log n)$ — Sangat cepat untuk pencarian data besar.
@@ -60,9 +85,7 @@ Berdasarkan file yang ada di repositori:
 * `background3.jpg`: Aset visual untuk latar belakang aplikasi.
 * `pom.xml`: Pengaturan dependensi jika Anda menggunakan Maven.
 * `.idea/`: Konfigurasi proyek untuk IDE IntelliJ IDEA.
-
 ---
-
 ## Instalasi & Cara Menjalankan
 
 ### Prasyarat
@@ -76,15 +99,36 @@ Berdasarkan file yang ada di repositori:
     ```
 2.  **Buka di IDE**: Buka folder proyek ini.
 3.  **Jalankan**: Jalankan file `Main.java` (atau file yang berisi fungsi `main`).
-
 ---
-
 ## Spesifikasi
 * **Bahasa**: Java
 * **Framework UI**: Java Swing & AWT
 * **Build Tool**: Maven (opsional)
 * **Version Control**: Git
+---
 
+## Struktur Project
+```text
+AlgoritmaPemrograman_BST_Traversal_UAS/
+├── .idea/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── bst/
+│   │   │           ├── Main.java
+│   │   │           ├── model/
+│   │   │           │   ├── Node.java
+│   │   │           │   └── BST.java
+│   │   │           └── view/
+│   │   │               └── AppFrame.java
+│   │   └── resources/
+│   │       └── background3.jpg
+│   └── test/
+├── pom.xml
+├── .gitignore
+└── README.md       
+```
 ---
 
 Dibuat Untuk Memenuhi Tugas UAS Algoritma dan Pemrograman
